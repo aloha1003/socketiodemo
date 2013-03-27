@@ -1,0 +1,12 @@
+{
+  "name": "socket.io-demo",
+  "version": "0.7.0",
+  "description": "node.js realtime framework server",
+  "dependencies": {
+    "express": "2.5.x",
+    "path"  :  "0.4.9",
+   
+    "socket.io" : "latest"
+  }
+ 
+}

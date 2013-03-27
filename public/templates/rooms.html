@@ -1,0 +1,8 @@
+<script>
+	$('.room').on('click',function(){
+          var room = $(this).attr('rel');
+       console.log('aa');
+          Socket.emit('switchroom', room);
+        });
+</script>
+<div id="rooms"></div>
